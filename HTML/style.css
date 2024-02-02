@@ -1,0 +1,76 @@
+.body{
+ background-color:rgb(228, 228, 228);
+}
+.navbar{
+    position: fixed;
+    height: 80px;
+    width:100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(14, 14, 14, 0.555);
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style:none;
+    margin:-10px 20px;
+    display:inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    padding:5px 15px;
+    text-decoration: none;
+    transition: 0.4s;
+    border: 0px solid;
+}
+.navbar ul li a:hover{
+    background-color: rgb(120, 81, 190);
+    border-radius: 2px;
+    color: white;
+}
+.hard{
+    font-size: 40px;
+    float: left;
+    margin:15px 20px;
+    color: white;
+    user-select: none;
+}
+.center{
+    position:absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    font-family:sans-serif;
+    user-select: none;
+}
+.center h1{
+    color: white;
+    font-size: 70px;
+    width: 900px;
+    font-weight: bold;
+    text-align: center;
+}
+.body{
+    background-image: url(../HTML/walpapersss.jpg) ;
+    background-size:cover;
+}
+.xiaomi{
+    position: absolute;
+    bottom: 60%;
+}
+.apple{
+    position: absolute;
+    bottom: 60%;
+    left: 10%;
+}
+.form{
+    color: white;
+    position: absolute;
+    bottom: 72%;
+    left: 20px;
+}

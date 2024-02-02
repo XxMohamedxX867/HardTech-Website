@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .navbar{
+    position: fixed;
+    height: 80px;
+    width:100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style:none;
+    margin:-10px 20px;
+    display:inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    padding:5px 15px;
+    text-decoration: none;
+    transition: 0.4s;
+    border: 0px solid;
+}
+.navbar ul li a:hover{
+    background-color: rgb(120, 81, 190);
+    border-radius: 2px;
+    color: white;
+}
+.hard{
+    font-size: 40px;
+    float: left;
+    margin:15px 20px;
+    color: white;
+    user-select: none;
+}
+            .about{
+                color: white;
+                font-size: 53px;
+                position:absolute;
+                left: 27%;
+                 top: 50%;
+                transform: translate(-50%,-50%);
+                font-family:cursive;
+                user-select: none;
+            }
+        </style>
+    </head>
+    <body style="background-image: url('../HTML/about\ us.jpg');">
+        
+        <p class="about">This site about<br> new mobile phone </p>
+        <nav class="navbar">
+            <div class="hard"><strong>Hard Tech</strong></div>
+            <ul>
+                <li><a href="project.html" target="blank">home</a></li>
+                <li><a href="about.html" target="blank">about</a></li>
+                <li><a href="contact.html" target="blank">contact</a></li>
+            </ul>
+        </nav>
+    </body>
+</html>
